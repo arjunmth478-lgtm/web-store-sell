@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="180" viewBox="0 0 640 180" role="img" aria-labelledby="title desc">
+  <title id="title">Shopnix logo</title>
+  <desc id="desc">Blue shopping bag icon and Shopnix wordmark on a transparent background.</desc>
+  <defs>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#60D5FF"/>
+      <stop offset="0.55" stop-color="#258BFF"/>
+      <stop offset="1" stop-color="#3658F5"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(20 18)">
+    <path d="M25 42h100l-8 99H33z" rx="12" fill="url(#blue)"/>
+    <path d="M49 48V34a26 26 0 0 1 52 0v14" fill="none" stroke="#DDF6FF" stroke-width="9" stroke-linecap="round"/>
+    <path d="M49 78l17 17 35-35" fill="none" stroke="#FFFFFF" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M21 150h108" stroke="#258BFF" stroke-width="5" stroke-linecap="round" opacity=".45"/>
+  </g>
+  <text x="174" y="108" font-family="Inter, Arial, Helvetica, sans-serif" font-size="76" font-weight="800" letter-spacing="-3" fill="#10213D">Shop<tspan fill="#258BFF">nix</tspan></text>
+  <text x="180" y="141" font-family="Inter, Arial, Helvetica, sans-serif" font-size="18" font-weight="600" letter-spacing="4" fill="#6A7D98">SHOP SMART. LIVE BETTER.</text>
+</svg>

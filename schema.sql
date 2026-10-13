@@ -1,0 +1,3 @@
+CREATE TABLE IF NOT EXISTS products (id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT NOT NULL, category TEXT NOT NULL DEFAULT 'General', price REAL NOT NULL DEFAULT 0, old_price REAL, image_url TEXT NOT NULL DEFAULT '', description TEXT NOT NULL DEFAULT '', featured INTEGER NOT NULL DEFAULT 0, active INTEGER NOT NULL DEFAULT 1, created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP);
+CREATE TABLE IF NOT EXISTS settings (key TEXT PRIMARY KEY, value TEXT NOT NULL DEFAULT '');
+INSERT OR IGNORE INTO settings(key,value) VALUES ('store_name','Shopnix'),('tagline','Find your next favourite.'),('whatsapp',''),('telegram','');
